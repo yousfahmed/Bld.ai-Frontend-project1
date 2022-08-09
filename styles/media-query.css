@@ -1,0 +1,53 @@
+@media screen and (max-width: 1000px) {
+  .udemy-business-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .udemy-teach-container {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  header .text-container {
+    box-shadow: 0 0;
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .sign-up {
+    display: none;
+  }
+  .log-in {
+    display: none;
+  }
+  .language {
+    display: none;
+  }
+  .add-to-card {
+    display: none;
+  }
+  .categories-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search-bar-container {
+    display: none;
+  }
+  .udemy-logo {
+    margin-left: 360px;
+  }
+  .toogle-btn {
+    display: flex;
+  }
+}
